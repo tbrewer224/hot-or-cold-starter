@@ -44,7 +44,7 @@ $('#guessButton').click(function(event) {
       $("#feedback").text("Cold");
       }
     else if (randomNumber - numberGuess > 10 || randomNumber - numberGuess < -10) {
-      $("#feedback").text("Warm");
+      $("#feedback").text("Hot");
       }
     else {
       $("#feedback").text("That's it!");
